@@ -1,5 +1,4 @@
 # Ignore large model weights
 /models/*.pt
-.venv/
-
+.venv/*
 
