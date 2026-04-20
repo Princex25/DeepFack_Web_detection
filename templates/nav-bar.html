@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-dark glass-nav">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="{%url 'ml_app:home'%}">
+            <img class="brand-logo" src="/static/images/logo1.png" alt="Deepfake Detection">
+            <span class="brand-text">Deepfake Detection</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{%url 'ml_app:home'%}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{%url 'ml_app:about'%}">About</a>
+                </li>
+            </ul>
+            <div class="navbar-nav ml-auto">
+                <a class="btn btn-sm btn-primary nav-cta" href="{%url 'ml_app:home'%}">Analyze Video</a>
+            </div>
+        </div>
+    </div>
+</nav>

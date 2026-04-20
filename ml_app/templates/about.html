@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{%block content%}
+<div class="container">
+	<div class="page-header">
+		<h1 class="page-title">About</h1>
+		<p class="page-subtitle">Learn how the deepfake detection pipeline works.</p>
+	</div>
+	<div class="card content-card">
+		<div class="card-body">
+			<p class="mb-3">This application uses a deep learning model to analyze facial frames from uploaded videos and estimate authenticity.</p>
+			<div class="hero-list">
+				<div class="hero-list-item">
+					<span class="dot"></span>
+					Upload a short MP4 clip.
+				</div>
+				<div class="hero-list-item">
+					<span class="dot"></span>
+					Frames are extracted and faces are cropped.
+				</div>
+				<div class="hero-list-item">
+					<span class="dot"></span>
+					The model predicts REAL or FAKE with confidence.
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{%endblock%}
