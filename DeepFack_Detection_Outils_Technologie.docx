@@ -1,0 +1,23 @@
+# Outils et Technologie
+
+Ce chapitre présente les outils et les technologies utilisés dans le projet de détection de DeepFake. Dans ce projet, nous avons intégré plusieurs composants clés qui contribuent à l'efficacité de la détection des vidéos manipulées.
+
+## Technologies utilisées
+
+1. **Intelligence Artificielle** : Nous utilisons des algorithmes d'apprentissage profond pour analyser les vidéos et détecter les signes de manipulation. Ces algorithmes apprennent à partir de grandes quantités de données pour identifier des modèles spécifiques qui échappent souvent à l'œil humain.
+
+2. **Traitement d'Image** : Des techniques avancées de traitement d'image sont utilisées pour prétraiter les vidéos. Cela inclut la normalisation, le redimensionnement et l'amélioration de la qualité des images pour améliorer les performances des modèles de détection.
+
+3. **Cadre de Développement** : Nous avons utilisé des cadres comme TensorFlow et PyTorch pour le développement de modèles d'apprentissage profond. Ces outils offrent de nombreuses bibliothèques et fonctionnalités qui facilitent l'entraînement et le déploiement des modèles.
+
+4. **Base de Données** : Pour entraîner les modèles, nous avons constitué une base de données de vidéos étiquetées, comprenant des exemples de vidéos authentiques et de DeepFakes. Ces données sont essentielles pour apprendre aux algorithmes à différencier entre les contenus réels et manipulés.
+
+5. **Interface Utilisateur** : L'interface utilisateur est construite avec des technologies web modernes, permettant une expérience utilisateur fluide. Nous avons utilisé HTML, CSS et JavaScript pour créer des tableaux de bord interactifs qui affichent les résultats des analyses.
+
+## Outils de Développement
+
+- **Git** : Pour la gestion de version et la collaboration entre les membres de l'équipe.
+- **Docker** : Pour créer des conteneurs qui isolent les applications et leurs dépendances, facilitant ainsi le déploiement et la scalabilité de l'application.
+- **Jupyter Notebooks** : Pour le prototypage rapide et l'expérimentation des modèles.
+
+En conclusion, le projet de détection de DeepFake repose sur une combinaison de technologies avancées et d'outils de développement robustes, ce qui nous permet de fournir une solution efficace et fiable pour la détection de contenu manipulé.
